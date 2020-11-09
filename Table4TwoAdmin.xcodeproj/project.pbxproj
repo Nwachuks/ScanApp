@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26534A232519FAEE001814C8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26534A222519FAEE001814C8 /* Extension.swift */; };
+		265765DC2518C539002AF61A /* ReservationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265765DB2518C539002AF61A /* ReservationDetailsVC.swift */; };
+		265765DE2518CEE4002AF61A /* ReservationItemTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265765DD2518CEE4002AF61A /* ReservationItemTVC.swift */; };
+		265765E12518F3C0002AF61A /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265765E02518F3C0002AF61A /* ScannerVC.swift */; };
+		26CA9242251A0DC8008A01B0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA9241251A0DC8008A01B0 /* Location.swift */; };
+		26CA9244251A0DEF008A01B0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA9243251A0DEF008A01B0 /* Customer.swift */; };
+		26CA9246251A0F67008A01B0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA9245251A0F67008A01B0 /* Enums.swift */; };
+		26CA9248251A0FAB008A01B0 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA9247251A0FAB008A01B0 /* Reservation.swift */; };
+		26CA924A251A1003008A01B0 /* ReservationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA9249251A1003008A01B0 /* ReservationItem.swift */; };
+		26CA924C251A106E008A01B0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA924B251A106E008A01B0 /* Restaurant.swift */; };
+		26CA924E251A1160008A01B0 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA924D251A1160008A01B0 /* Address.swift */; };
+		26CA9250251A1983008A01B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA924F251A1983008A01B0 /* User.swift */; };
+		26E3FFA7251203DC00519A8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFA6251203DC00519A8F /* AppDelegate.swift */; };
+		26E3FFA9251203DC00519A8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFA8251203DC00519A8F /* SceneDelegate.swift */; };
+		26E3FFAE251203DC00519A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFAC251203DC00519A8F /* Main.storyboard */; };
+		26E3FFB0251203DE00519A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFAF251203DE00519A8F /* Assets.xcassets */; };
+		26E3FFB3251203DE00519A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFB1251203DE00519A8F /* LaunchScreen.storyboard */; };
+		26E3FFBE251203DE00519A8F /* Table4TwoAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFBD251203DE00519A8F /* Table4TwoAdminTests.swift */; };
+		26E3FFC9251203DE00519A8F /* Table4TwoAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFC8251203DE00519A8F /* Table4TwoAdminUITests.swift */; };
+		26E3FFDC25120D6500519A8F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFD725120D6500519A8F /* Roboto-Regular.ttf */; };
+		26E3FFDD25120D6500519A8F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFD825120D6500519A8F /* Roboto-Medium.ttf */; };
+		26E3FFDE25120D6500519A8F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFD925120D6500519A8F /* Roboto-Thin.ttf */; };
+		26E3FFDF25120D6500519A8F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFDA25120D6500519A8F /* Roboto-Bold.ttf */; };
+		26E3FFE025120D6500519A8F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26E3FFDB25120D6500519A8F /* Roboto-Light.ttf */; };
+		26E3FFE22512187700519A8F /* KeyboardHandlingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFE12512187700519A8F /* KeyboardHandlingVC.swift */; };
+		26E3FFE42512211100519A8F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFE32512211100519A8F /* LoginVC.swift */; };
+		26E3FFE625122D5C00519A8F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFE525122D5C00519A8F /* HomeVC.swift */; };
+		26E3FFE925123FF600519A8F /* ReservationListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFE825123FF600519A8F /* ReservationListTVC.swift */; };
+		26E3FFEB2512408300519A8F /* ReservationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E3FFEA2512408300519A8F /* ReservationListVC.swift */; };
+		4CA55121D115DA6A34012786 /* Pods_Table4TwoAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A38F81E578DC1334B7AD35 /* Pods_Table4TwoAdmin.framework */; };
+		C2D0496094D907C7A2601B7A /* Pods_Table4TwoAdminTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D66A777B3F8A0D5A7661965 /* Pods_Table4TwoAdminTests.framework */; };
+		FFA0460BF9FA125AF50C8E89 /* Pods_Table4TwoAdmin_Table4TwoAdminUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E302BA06820764E84643FC95 /* Pods_Table4TwoAdmin_Table4TwoAdminUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E3FFBA251203DE00519A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E3FF9B251203DC00519A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E3FFA2251203DC00519A8F;
+			remoteInfo = Table4TwoAdmin;
+		};
+		26E3FFC5251203DE00519A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E3FF9B251203DC00519A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E3FFA2251203DC00519A8F;
+			remoteInfo = Table4TwoAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21A3A5A83AD66A533A8966E1 /* Pods-Table4TwoAdmin-Table4TwoAdminUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table4TwoAdmin-Table4TwoAdminUITests.release.xcconfig"; path = "Target Support Files/Pods-Table4TwoAdmin-Table4TwoAdminUITests/Pods-Table4TwoAdmin-Table4TwoAdminUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26534A222519FAEE001814C8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		265765DB2518C539002AF61A /* ReservationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailsVC.swift; sourceTree = "<group>"; };
+		265765DD2518CEE4002AF61A /* ReservationItemTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationItemTVC.swift; sourceTree = "<group>"; };
+		265765E02518F3C0002AF61A /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		26CA9241251A0DC8008A01B0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		26CA9243251A0DEF008A01B0 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		26CA9245251A0F67008A01B0 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		26CA9247251A0FAB008A01B0 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		26CA9249251A1003008A01B0 /* ReservationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationItem.swift; sourceTree = "<group>"; };
+		26CA924B251A106E008A01B0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		26CA924D251A1160008A01B0 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		26CA924F251A1983008A01B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		26E3FFA3251203DC00519A8F /* Table4TwoAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table4TwoAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3FFA6251203DC00519A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26E3FFA8251203DC00519A8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26E3FFAD251203DC00519A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26E3FFAF251203DE00519A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26E3FFB2251203DE00519A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26E3FFB4251203DE00519A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E3FFB9251203DE00519A8F /* Table4TwoAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Table4TwoAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3FFBD251203DE00519A8F /* Table4TwoAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table4TwoAdminTests.swift; sourceTree = "<group>"; };
+		26E3FFBF251203DE00519A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E3FFC4251203DE00519A8F /* Table4TwoAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Table4TwoAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3FFC8251203DE00519A8F /* Table4TwoAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table4TwoAdminUITests.swift; sourceTree = "<group>"; };
+		26E3FFCA251203DE00519A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E3FFD725120D6500519A8F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		26E3FFD825120D6500519A8F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		26E3FFD925120D6500519A8F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		26E3FFDA25120D6500519A8F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		26E3FFDB25120D6500519A8F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		26E3FFE12512187700519A8F /* KeyboardHandlingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandlingVC.swift; sourceTree = "<group>"; };
+		26E3FFE32512211100519A8F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		26E3FFE525122D5C00519A8F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		26E3FFE825123FF600519A8F /* ReservationListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationListTVC.swift; sourceTree = "<group>"; };
+		26E3FFEA2512408300519A8F /* ReservationListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationListVC.swift; sourceTree = "<group>"; };
+		46A38F81E578DC1334B7AD35 /* Pods_Table4TwoAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Table4TwoAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66A777B3F8A0D5A7661965 /* Pods_Table4TwoAdminTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Table4TwoAdminTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F92E7C5380EC86EA8A98A4D /* Pods-Table4TwoAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table4TwoAdmin.release.xcconfig"; path = "Target Support Files/Pods-Table4TwoAdmin/Pods-Table4TwoAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		A7BCDEA1632A317084EAACA0 /* Pods-Table4TwoAdminTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table4TwoAdminTests.debug.xcconfig"; path = "Target Support Files/Pods-Table4TwoAdminTests/Pods-Table4TwoAdminTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C71E9B502DC3683F178F88C6 /* Pods-Table4TwoAdminTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table4TwoAdminTests.release.xcconfig"; path = "Target Support Files/Pods-Table4TwoAdminTests/Pods-Table4TwoAdminTests.release.xcconfig"; sourceTree = "<group>"; };
+		D012AEA997D2C3ACD7831CEF /* Pods-Table4TwoAdmin-Table4TwoAdminUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table4TwoAdmin-Table4TwoAdminUITests.debug.xcconfig"; path = "Target Support Files/Pods-Table4TwoAdmin-Table4TwoAdminUITests/Pods-Table4TwoAdmin-Table4TwoAdminUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2A96B0E4A440C7A009FEE8A /* Pods-Table4TwoAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table4TwoAdmin.debug.xcconfig"; path = "Target Support Files/Pods-Table4TwoAdmin/Pods-Table4TwoAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		E302BA06820764E84643FC95 /* Pods_Table4TwoAdmin_Table4TwoAdminUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Table4TwoAdmin_Table4TwoAdminUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E3FFA0251203DC00519A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA55121D115DA6A34012786 /* Pods_Table4TwoAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3FFB6251203DE00519A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D0496094D907C7A2601B7A /* Pods_Table4TwoAdminTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3FFC1251203DE00519A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA0460BF9FA125AF50C8E89 /* Pods_Table4TwoAdmin_Table4TwoAdminUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265765DF2518D35F002AF61A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26E3FFE725123FA600519A8F /* TableViewCells */,
+				26E3FFEA2512408300519A8F /* ReservationListVC.swift */,
+				265765DB2518C539002AF61A /* ReservationDetailsVC.swift */,
+				26E3FFE12512187700519A8F /* KeyboardHandlingVC.swift */,
+				26E3FFE32512211100519A8F /* LoginVC.swift */,
+				26E3FFE525122D5C00519A8F /* HomeVC.swift */,
+				265765E02518F3C0002AF61A /* ScannerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		26CA9240251A0DB8008A01B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26CA9241251A0DC8008A01B0 /* Location.swift */,
+				26CA9243251A0DEF008A01B0 /* Customer.swift */,
+				26CA9247251A0FAB008A01B0 /* Reservation.swift */,
+				26CA9249251A1003008A01B0 /* ReservationItem.swift */,
+				26CA924B251A106E008A01B0 /* Restaurant.swift */,
+				26CA924D251A1160008A01B0 /* Address.swift */,
+				26CA924F251A1983008A01B0 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26E3FF9A251203DC00519A8F = {
+			isa = PBXGroup;
+			children = (
+				26E3FFA5251203DC00519A8F /* Table4TwoAdmin */,
+				26E3FFBC251203DE00519A8F /* Table4TwoAdminTests */,
+				26E3FFC7251203DE00519A8F /* Table4TwoAdminUITests */,
+				26E3FFA4251203DC00519A8F /* Products */,
+				88453603BE094F53B534D2FD /* Pods */,
+				FDF5EFC68F087501478A608D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26E3FFA4251203DC00519A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E3FFA3251203DC00519A8F /* Table4TwoAdmin.app */,
+				26E3FFB9251203DE00519A8F /* Table4TwoAdminTests.xctest */,
+				26E3FFC4251203DE00519A8F /* Table4TwoAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E3FFA5251203DC00519A8F /* Table4TwoAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				26CA9240251A0DB8008A01B0 /* Models */,
+				265765DF2518D35F002AF61A /* Controllers */,
+				26E3FFD625120CB000519A8F /* Fonts */,
+				26E3FFA6251203DC00519A8F /* AppDelegate.swift */,
+				26E3FFA8251203DC00519A8F /* SceneDelegate.swift */,
+				26E3FFAC251203DC00519A8F /* Main.storyboard */,
+				26E3FFAF251203DE00519A8F /* Assets.xcassets */,
+				26E3FFB1251203DE00519A8F /* LaunchScreen.storyboard */,
+				26E3FFB4251203DE00519A8F /* Info.plist */,
+				26534A222519FAEE001814C8 /* Extension.swift */,
+				26CA9245251A0F67008A01B0 /* Enums.swift */,
+			);
+			path = Table4TwoAdmin;
+			sourceTree = "<group>";
+		};
+		26E3FFBC251203DE00519A8F /* Table4TwoAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				26E3FFBD251203DE00519A8F /* Table4TwoAdminTests.swift */,
+				26E3FFBF251203DE00519A8F /* Info.plist */,
+			);
+			path = Table4TwoAdminTests;
+			sourceTree = "<group>";
+		};
+		26E3FFC7251203DE00519A8F /* Table4TwoAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26E3FFC8251203DE00519A8F /* Table4TwoAdminUITests.swift */,
+				26E3FFCA251203DE00519A8F /* Info.plist */,
+			);
+			path = Table4TwoAdminUITests;
+			sourceTree = "<group>";
+		};
+		26E3FFD625120CB000519A8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				26E3FFDA25120D6500519A8F /* Roboto-Bold.ttf */,
+				26E3FFDB25120D6500519A8F /* Roboto-Light.ttf */,
+				26E3FFD825120D6500519A8F /* Roboto-Medium.ttf */,
+				26E3FFD725120D6500519A8F /* Roboto-Regular.ttf */,
+				26E3FFD925120D6500519A8F /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		26E3FFE725123FA600519A8F /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				265765DD2518CEE4002AF61A /* ReservationItemTVC.swift */,
+				26E3FFE825123FF600519A8F /* ReservationListTVC.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		88453603BE094F53B534D2FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2A96B0E4A440C7A009FEE8A /* Pods-Table4TwoAdmin.debug.xcconfig */,
+				8F92E7C5380EC86EA8A98A4D /* Pods-Table4TwoAdmin.release.xcconfig */,
+				D012AEA997D2C3ACD7831CEF /* Pods-Table4TwoAdmin-Table4TwoAdminUITests.debug.xcconfig */,
+				21A3A5A83AD66A533A8966E1 /* Pods-Table4TwoAdmin-Table4TwoAdminUITests.release.xcconfig */,
+				A7BCDEA1632A317084EAACA0 /* Pods-Table4TwoAdminTests.debug.xcconfig */,
+				C71E9B502DC3683F178F88C6 /* Pods-Table4TwoAdminTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDF5EFC68F087501478A608D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46A38F81E578DC1334B7AD35 /* Pods_Table4TwoAdmin.framework */,
+				E302BA06820764E84643FC95 /* Pods_Table4TwoAdmin_Table4TwoAdminUITests.framework */,
+				5D66A777B3F8A0D5A7661965 /* Pods_Table4TwoAdminTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E3FFA2251203DC00519A8F /* Table4TwoAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3FFCD251203DE00519A8F /* Build configuration list for PBXNativeTarget "Table4TwoAdmin" */;
+			buildPhases = (
+				6B24BC4AF4394960A13219B9 /* [CP] Check Pods Manifest.lock */,
+				26E3FF9F251203DC00519A8F /* Sources */,
+				26E3FFA0251203DC00519A8F /* Frameworks */,
+				26E3FFA1251203DC00519A8F /* Resources */,
+				752FFB5C0924696F2AAB82B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Table4TwoAdmin;
+			productName = Table4TwoAdmin;
+			productReference = 26E3FFA3251203DC00519A8F /* Table4TwoAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26E3FFB8251203DE00519A8F /* Table4TwoAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3FFD0251203DE00519A8F /* Build configuration list for PBXNativeTarget "Table4TwoAdminTests" */;
+			buildPhases = (
+				E4FB8D3DB9847DEA383D54AD /* [CP] Check Pods Manifest.lock */,
+				26E3FFB5251203DE00519A8F /* Sources */,
+				26E3FFB6251203DE00519A8F /* Frameworks */,
+				26E3FFB7251203DE00519A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E3FFBB251203DE00519A8F /* PBXTargetDependency */,
+			);
+			name = Table4TwoAdminTests;
+			productName = Table4TwoAdminTests;
+			productReference = 26E3FFB9251203DE00519A8F /* Table4TwoAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26E3FFC3251203DE00519A8F /* Table4TwoAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3FFD3251203DE00519A8F /* Build configuration list for PBXNativeTarget "Table4TwoAdminUITests" */;
+			buildPhases = (
+				AB7555C2C901F6F09A9FF3B0 /* [CP] Check Pods Manifest.lock */,
+				26E3FFC0251203DE00519A8F /* Sources */,
+				26E3FFC1251203DE00519A8F /* Frameworks */,
+				26E3FFC2251203DE00519A8F /* Resources */,
+				3C6D461B67B96951703E7EA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E3FFC6251203DE00519A8F /* PBXTargetDependency */,
+			);
+			name = Table4TwoAdminUITests;
+			productName = Table4TwoAdminUITests;
+			productReference = 26E3FFC4251203DE00519A8F /* Table4TwoAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E3FF9B251203DC00519A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Nwachukwu Ejiofor";
+				TargetAttributes = {
+					26E3FFA2251203DC00519A8F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					26E3FFB8251203DE00519A8F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 26E3FFA2251203DC00519A8F;
+					};
+					26E3FFC3251203DE00519A8F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 26E3FFA2251203DC00519A8F;
+					};
+				};
+			};
+			buildConfigurationList = 26E3FF9E251203DC00519A8F /* Build configuration list for PBXProject "Table4TwoAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26E3FF9A251203DC00519A8F;
+			productRefGroup = 26E3FFA4251203DC00519A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E3FFA2251203DC00519A8F /* Table4TwoAdmin */,
+				26E3FFB8251203DE00519A8F /* Table4TwoAdminTests */,
+				26E3FFC3251203DE00519A8F /* Table4TwoAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E3FFA1251203DC00519A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3FFDF25120D6500519A8F /* Roboto-Bold.ttf in Resources */,
+				26E3FFDD25120D6500519A8F /* Roboto-Medium.ttf in Resources */,
+				26E3FFB3251203DE00519A8F /* LaunchScreen.storyboard in Resources */,
+				26E3FFDE25120D6500519A8F /* Roboto-Thin.ttf in Resources */,
+				26E3FFB0251203DE00519A8F /* Assets.xcassets in Resources */,
+				26E3FFDC25120D6500519A8F /* Roboto-Regular.ttf in Resources */,
+				26E3FFE025120D6500519A8F /* Roboto-Light.ttf in Resources */,
+				26E3FFAE251203DC00519A8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3FFB7251203DE00519A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3FFC2251203DE00519A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C6D461B67B96951703E7EA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Table4TwoAdmin-Table4TwoAdminUITests/Pods-Table4TwoAdmin-Table4TwoAdminUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Table4TwoAdmin-Table4TwoAdminUITests/Pods-Table4TwoAdmin-Table4TwoAdminUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Table4TwoAdmin-Table4TwoAdminUITests/Pods-Table4TwoAdmin-Table4TwoAdminUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B24BC4AF4394960A13219B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Table4TwoAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752FFB5C0924696F2AAB82B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Table4TwoAdmin/Pods-Table4TwoAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Table4TwoAdmin/Pods-Table4TwoAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Table4TwoAdmin/Pods-Table4TwoAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7555C2C901F6F09A9FF3B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Table4TwoAdmin-Table4TwoAdminUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4FB8D3DB9847DEA383D54AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Table4TwoAdminTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E3FF9F251203DC00519A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CA924E251A1160008A01B0 /* Address.swift in Sources */,
+				26E3FFE925123FF600519A8F /* ReservationListTVC.swift in Sources */,
+				26CA924A251A1003008A01B0 /* ReservationItem.swift in Sources */,
+				26E3FFE22512187700519A8F /* KeyboardHandlingVC.swift in Sources */,
+				26CA9248251A0FAB008A01B0 /* Reservation.swift in Sources */,
+				26E3FFEB2512408300519A8F /* ReservationListVC.swift in Sources */,
+				26E3FFE625122D5C00519A8F /* HomeVC.swift in Sources */,
+				26CA9246251A0F67008A01B0 /* Enums.swift in Sources */,
+				26534A232519FAEE001814C8 /* Extension.swift in Sources */,
+				26E3FFA7251203DC00519A8F /* AppDelegate.swift in Sources */,
+				265765E12518F3C0002AF61A /* ScannerVC.swift in Sources */,
+				26E3FFE42512211100519A8F /* LoginVC.swift in Sources */,
+				265765DC2518C539002AF61A /* ReservationDetailsVC.swift in Sources */,
+				26CA9244251A0DEF008A01B0 /* Customer.swift in Sources */,
+				265765DE2518CEE4002AF61A /* ReservationItemTVC.swift in Sources */,
+				26CA924C251A106E008A01B0 /* Restaurant.swift in Sources */,
+				26CA9242251A0DC8008A01B0 /* Location.swift in Sources */,
+				26E3FFA9251203DC00519A8F /* SceneDelegate.swift in Sources */,
+				26CA9250251A1983008A01B0 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3FFB5251203DE00519A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3FFBE251203DE00519A8F /* Table4TwoAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E3FFC0251203DE00519A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3FFC9251203DE00519A8F /* Table4TwoAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26E3FFBB251203DE00519A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E3FFA2251203DC00519A8F /* Table4TwoAdmin */;
+			targetProxy = 26E3FFBA251203DE00519A8F /* PBXContainerItemProxy */;
+		};
+		26E3FFC6251203DE00519A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E3FFA2251203DC00519A8F /* Table4TwoAdmin */;
+			targetProxy = 26E3FFC5251203DE00519A8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26E3FFAC251203DC00519A8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E3FFAD251203DC00519A8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26E3FFB1251203DE00519A8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E3FFB2251203DE00519A8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26E3FFCB251203DE00519A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26E3FFCC251203DE00519A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E3FFCE251203DE00519A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A96B0E4A440C7A009FEE8A /* Pods-Table4TwoAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWRJG22F44;
+				INFOPLIST_FILE = Table4TwoAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedprof.Table4TwoAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		26E3FFCF251203DE00519A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F92E7C5380EC86EA8A98A4D /* Pods-Table4TwoAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWRJG22F44;
+				INFOPLIST_FILE = Table4TwoAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedprof.Table4TwoAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		26E3FFD1251203DE00519A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BCDEA1632A317084EAACA0 /* Pods-Table4TwoAdminTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWRJG22F44;
+				INFOPLIST_FILE = Table4TwoAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedprof.Table4TwoAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table4TwoAdmin.app/Table4TwoAdmin";
+			};
+			name = Debug;
+		};
+		26E3FFD2251203DE00519A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71E9B502DC3683F178F88C6 /* Pods-Table4TwoAdminTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWRJG22F44;
+				INFOPLIST_FILE = Table4TwoAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedprof.Table4TwoAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table4TwoAdmin.app/Table4TwoAdmin";
+			};
+			name = Release;
+		};
+		26E3FFD4251203DE00519A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D012AEA997D2C3ACD7831CEF /* Pods-Table4TwoAdmin-Table4TwoAdminUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWRJG22F44;
+				INFOPLIST_FILE = Table4TwoAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedprof.Table4TwoAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Table4TwoAdmin;
+			};
+			name = Debug;
+		};
+		26E3FFD5251203DE00519A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A3A5A83AD66A533A8966E1 /* Pods-Table4TwoAdmin-Table4TwoAdminUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWRJG22F44;
+				INFOPLIST_FILE = Table4TwoAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedprof.Table4TwoAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Table4TwoAdmin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E3FF9E251203DC00519A8F /* Build configuration list for PBXProject "Table4TwoAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3FFCB251203DE00519A8F /* Debug */,
+				26E3FFCC251203DE00519A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3FFCD251203DE00519A8F /* Build configuration list for PBXNativeTarget "Table4TwoAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3FFCE251203DE00519A8F /* Debug */,
+				26E3FFCF251203DE00519A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3FFD0251203DE00519A8F /* Build configuration list for PBXNativeTarget "Table4TwoAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3FFD1251203DE00519A8F /* Debug */,
+				26E3FFD2251203DE00519A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3FFD3251203DE00519A8F /* Build configuration list for PBXNativeTarget "Table4TwoAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3FFD4251203DE00519A8F /* Debug */,
+				26E3FFD5251203DE00519A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26E3FF9B251203DC00519A8F /* Project object */;
+}

@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.9.1)
+  - DropDown (2.3.13)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9)
+  - DropDown
+  - SDWebImage (~> 5.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 3941c8c6081caffd748834e2a92c531fe4dad4dd
+
+COCOAPODS: 1.9.3

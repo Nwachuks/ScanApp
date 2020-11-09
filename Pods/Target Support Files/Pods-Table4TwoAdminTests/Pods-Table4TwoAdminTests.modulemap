@@ -1,0 +1,6 @@
+framework module Pods_Table4TwoAdminTests {
+  umbrella header "Pods-Table4TwoAdminTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
